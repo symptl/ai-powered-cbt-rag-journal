@@ -23,7 +23,7 @@ from fastapi.encoders import jsonable_encoder
 app = FastAPI()
 
 origins = [
-    "INSERT HTTPS DOMAIN FOR WEBSITE"
+    os.getenv("SITE_DOMAIN")
 ]
 
 app.add_middleware(
