@@ -2,7 +2,7 @@
 
 An AI-powered journal that retrieves relevant context from Cognitive Behavioral Therapy (CBT) documentation and generates personalized reflections and responses using a locally hosted LLM. Local hosting ensures user data remains confined within the system rather than being sent to external services.
 
-The architecture diagram is included at the end of this document. This repository covers the entire inference stack of the project.
+The architecture diagram is included at the end of this document. This repository covers the entire inference stack of the project. The entire project was developed with a team of 5.
 
 Full project writeup and summary can be found here: https://www.ischool.berkeley.edu/projects/2025/refraime
 
@@ -99,3 +99,9 @@ An API that:
 ## Architecture Diagram
 
 <img src="readme_images/architecture.jpg" alt="System Architecture" width="800">
+
+---
+
+## Team
+
+Shyam Patel, Michael Garfagnoli, Sineli Gamage, Hannah Macdonald, and Bradley Igercich
