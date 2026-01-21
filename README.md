@@ -4,6 +4,8 @@ An AI-powered journal that retrieves relevant context from Cognitive Behavioral 
 
 The architecture diagram is included at the end of this document. This repository covers the entire inference stack of the project.
 
+Full project writeup and summary can be found here: https://www.ischool.berkeley.edu/projects/2025/refraime
+
 ---
 
 ## Overview of Modules
