@@ -8,6 +8,7 @@ Mocks:
 """
 
 import os
+import sys
 import pytest
 from unittest.mock import patch, MagicMock
 
@@ -25,6 +26,9 @@ patch("langchain_aws.SagemakerEndpoint", return_value=mock_sagemaker_endpoint).s
 
 from fastapi.testclient import TestClient
 from langchain_core.documents import Document
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 import app
 
 

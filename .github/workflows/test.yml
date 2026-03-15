@@ -27,11 +27,11 @@ jobs:
       - name: Run backend API tests
         run: pytest tests/ -v
 
-  test-inference-api:
+  test-langchain-api:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: inference-api
+        working-directory: langchain-api
 
     steps:
       - uses: actions/checkout@v4
